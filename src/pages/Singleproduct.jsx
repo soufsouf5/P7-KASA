@@ -33,7 +33,7 @@ const SingleProduct = () => {
       </div>
       <div className="singleproduct__dropdowns">
         <Collapse title="description" content={description} />
-        <Collapse title="équipement" content={equipments} />
+        <Collapse title="équipements" content={equipments} />
       </div>
     </div>
   );
