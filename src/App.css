@@ -342,6 +342,15 @@ code {
   transform: scale(1);
   transition: transform 300ms;
 }
+.slider__number {
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  right: 0;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
 @media only screen and (min-width: 350px) {
   .slider__active-picture {
     height: 295px;
